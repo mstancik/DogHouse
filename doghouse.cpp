@@ -16,8 +16,8 @@ int DogHouse::Init(void){
 }
 
 void DogHouse::update_values(void){
-    volt_battery = adcdac.read_adc_voltage(1, 0)*5.016;
-    volt_rpi = adcdac.read_adc_voltage(2, 0)*5.016;
+    volt_battery = adcdac.read_adc_voltage(1, 0)*5.01;
+    volt_rpi = adcdac.read_adc_voltage(2, 0)*5.01;
 }
 
 float DogHouse::GetVoltBattery(){

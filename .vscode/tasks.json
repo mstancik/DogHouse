@@ -6,7 +6,7 @@
         {
             "label": "doghouse build",
             "type": "shell",
-            "command": "g++ main.cpp doghouse.cpp ABE_ADCDACPi.cpp -o doghouse",
+            "command": "g++ main.cpp doghouse.cpp ABE_ADCDACPi.cpp DS18B20.cpp -lwiringPi -o doghouse",
             "group": {
                 "kind": "build",
                 "isDefault": true
